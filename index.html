@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<!-- Put the page name in the page tab-->
+		<title>Rock Farm Home</title>
+		
+		<!--  Add in a meta description for search engine optimization-->
+		<meta-name="description"
+			content="A Source of Help and Information about Autism Spectrum Disorders" />
+		
+			<!--  Add in some meta keywords for search engine optimization-->
+			<meta-name="keywords"
+			content="Autism, Aspergers, Support" />
+		
+			<!--  Tell robots they can't follow this web site-->
+			<meta-name="robots"
+			content="nofollow" />
+		
+			<!--  Set up authoring by telling the browser your name-->
+			<meta http-equiv="author"
+				content="Gary Schlussler" />
+		
+				<!--  Tell browsers not to cache this web site-->
+			<meta http-equiv="pragma"
+				content="no-cache" />
+		
+				<!--  Use goole fonts to add some coolness factor-->
+			<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico|Tangerine" rel="stylesheet">
+		
+			<!--  Use bootstrap for html/css functionality-->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		
+			<!--  At some point fugure out what is wrong with the bootstrap functions you are using and upgrade-->
+			
+		<!--<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" 
+			integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+			
+			<!--  Use CSS styling and name the style sheet mainStyle.css-->
+			<link rel="stylesheet" type="text/css" href="CSS/mainStyle.css"/>
+</head>
+	<body>
+		<!--  Set this web site up to be dynmically sdaptive to browser hardware type limitations-->
+	  <div class="container-fluid">
+		
+			<!--  Make a header that has some photos and a Page Heading-->
+      <div id="header">
+        <h1> <img id="Photo1" src="Images/rocksAndFlowersNorth2.jpg" width="130" height="110" float: left
+				          alt="View of California Poppies and rocks background" title="Rocks_And_Flowers" />
+				 <b>Dedicated to Helping Understand Autism Spectrum Disorder</b>
+				   <img id="Photo2" src="Images/rocksAndFlowersClose.jpg" width="130" height="110" float: right
+				 alt="View of Rocks at Rock Farm Products" title="Rocks" /></h1>
+			</div>
+				 <!--  Set up some buttons for page navigation within the site using bootstrap functionality-->
+      <div id="nav">
+		    <ul class="nav nav-pills">
+            <li>   
+            <a class = "active" href="index.html">Home</a>
+            </li>
+            <li class="pull-right">   
+						<a href="Login.html">Login</a>
+						</li>
+	        <li class="pull-right">   
+            <a href="Contact.html">Contact Us</a>
+            </li>
+            <li class="pull-right">   
+            <a href="Affirmations.html">Affirmations</a>
+            </li>
+            <li class = "pull-right">   
+            <a href="Encouragement.html">Encouragement</a>
+            </li>
+        </ul>
+      </div>
+      </div>
+			<!-- Use a 96 column page style-->
+			<div id="feature">
+				<!--First welcome the user with a good day greeting -->
+					<p><h2><script src="./JS_source_code/welcome.js"></script></h2></p>
+				<p>&nbsp &nbsp This site is an information and data access location in
+					support of families of children with Autism.  The information
+					provided here is for information only and should not be considered to
+					be medical or legal advice.  Visitors are encouraged to use this site
+					as a resource for finding information to assist in their personal
+					journey of raising a child on	the Autism Spectrum.  We encourage
+					feedback and suggestions for improving the accuracy and/or type of
+					content made available on this site. <br>
+					Thank you for visiting.</p>	
+				</div>
+					 <!-- Setup the content features for data provided to users-->
+					 <div id="content">
+						 <!-- In the first article provide a scrolling page of books on Autism-->
+							<div class="article column1">
+									<p>Books</p>
+									<p class="align: left" class="padding-left: 2px">
+									<p id="title"> Title </p>
+									<p id="author"> Author </p>
+									<p id="pub"> Published </p>
+									<script src="./JS_source_code/subjectBooks.js"></script>
+									<button class="button" onclick ="updateBooks()" id = "B1">  Next Book   </button><br/>
+									</div>
+									<!-- In the second article provide a scrolling page of Websites about Autism-->
+									<div class="article column2">
+										  <<p>>Web Sites</p>
+											<p id="subject"> Subject </p>
+											<p id="entity"> Entity </p>
+											<p id="bzLink"> Link </p>
+											<script src="./JS_source_code/subjectSites.js"></script>
+											<button class="button" onclick ="updateSites()" id = "B2">  Next Site   </button><br/>
+										</div>
+										<!-- In the third article provide a scrolling page of Agencies supporting Autism-->
+										<div class="article column3">
+												<p>Agencies</p>
+												<p id="agency"> Agency </p>
+												<p id="sector"> Sector </p>
+												<p id="govLink"> Link </p>
+												<script src="./JS_source_code/subjectAgencies.js"></script>
+												<button class="button" onclick ="updateAgencies()" id = "B3">  Next Agency   </button><br/>
+											</div>
+				</div>
+			<!-- In the footer show the copyright and a date page-->	  
+		  <div id="footer">
+			<p><h2><script src="./JS_source_code/timeFunction.js"></script></h2></p>
+			<p>&copy; Rock Farm Products Copyright 2018</p>
+		  </div>
+	</body>
+</html>
+

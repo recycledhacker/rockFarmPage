@@ -1,0 +1,157 @@
+/* CSS Main Style Sheet */
+/* liquid sytle 960 GS format */
+
+body  {
+  font-family: Arial, Verdana, sans-serif;
+  color: #FFE680;
+  text-align: center;
+  background-image: url("eclipse2017.jpeg");
+  /*background-color: whitesmoke*/
+  width: 90%;
+  margin: 0 auto;}
+
+  .button {
+    background-color: rgb(112, 186, 247);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: green;
+}
+ 
+div {
+  text-align:center;
+  }
+
+  .photos{
+  background-color: black;
+  opacity: .8;
+  padding-top: 2px;
+  width: 35%;
+  border-color: white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius:10px;
+ /*margin-bottom: 10%;*/
+  }
+  
+  h1 {
+    padding: 0;
+    margin-top: 10px;
+    font-family: 'Tangerine';
+    font-size: 3.0em;
+    color: goldenrod
+    }
+ 
+ h2 {
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Indie Flower';
+    font-size: 2.5em;
+    color: black;
+    }
+ 
+    p {
+      padding: 0;
+      text-align: center;
+      margin-top: 1px;
+      font-family: 'Indie Flower';
+      font-size: 2.0em;
+      color: yellow;
+      }
+    
+    img.align-left {
+    float: left;
+    margin-right: 10px
+    }
+   
+  img.small {
+    width: 70px;
+    height: 50px;
+    }
+  
+  img.medium {
+    width: 350px;
+    height: 250px;
+    }
+  
+  img.large {
+    width: 700px;
+    height: 500px;
+    }    
+ 
+ .nav-pills{
+    font-family: 'Tangerine';
+    color: white;
+    margin-top: 2px;
+    text-align: center;
+    font-size: 2.0em;
+    background-color: black;
+    margin-bottom: 5px;
+    } 
+ 
+    .nav{
+      font-family: 'Pacifico', cursive;
+      color: white;
+      margin-top: 2px;
+      text-align: center;
+      font-size: 1.5em;
+      background-color: black;
+      margin-bottom: 2px;
+      } 
+       
+  #content {
+  overflow: auto;}
+  
+  #feature, #footer {
+  text-align: center;
+   margin: 1%;}
+  
+   .column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+  margin: 1%;}
+  
+  .column3 {
+   margin-right: 0%;}
+  
+   li {
+  display: inline;
+  padding: 0.25em;}
+  
+  #nav, #footer {
+  background-color: #1a3399;
+  padding: 0.25em 0;}
+  
+  #header_feature, {
+    font-size: 1.5em;
+    height: 4em;
+    margin-bottom: 1em;
+    background-color: #1a3399;}
+
+  #feature, .article {
+  font-size: .75em;
+  height: 20em;
+  margin-bottom: 1em;
+  background-color: #1a3399;}
+  
+  .blog {
+    font-size: .75em;
+    height: 5em;
+    margin-bottom: 1em;
+    background-color: #1a3399;}
+
+  #login_feature {
+    margin-top: 2px;
+    height: 25em;
+    margin-bottom: 1em;
+    background-color: #1a3399;}
+   

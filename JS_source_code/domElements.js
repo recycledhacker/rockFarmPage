@@ -1,0 +1,1 @@
+/** The module is for DOM element interactivity*/
